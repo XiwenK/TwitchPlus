@@ -68,7 +68,7 @@ public class AppConfig {
                             .requestMatchers(HttpMethod.GET, "/", "/index.html", "/*.json", "/*.png", "/static/**").permitAll() // 开放前端资源
                             .requestMatchers("/hello/**").permitAll()
                             .requestMatchers(HttpMethod.POST, "/login", "/register", "/logout").permitAll()
-                            .requestMatchers(HttpMethod.GET, "/recommendation", "/game").permitAll() // 未登录也可以访问 recommendation
+                            .requestMatchers(HttpMethod.GET, "/recommendation", "/game", "/search").permitAll() // 未登录也可以访问 recommendation
                             .anyRequest().authenticated()
                 )
                 .exceptionHandling()
