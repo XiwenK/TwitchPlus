@@ -5,4 +5,5 @@ A full stack web application for users to get access to twitch resources (stream
 
 ## setup
 Build, Execution, Deployment > BUild Tools > Gradle > gradle JVM: temurin-17
+
 Project Structure > Project SDK: temurin-17
